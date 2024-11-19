@@ -1,1 +1,17 @@
-/target
+# Ignore the target directory
+target/
+
+# Ignore Cargo.lock for libraries
+Cargo.lock
+
+# Ignore editor configuration files
+.vscode/
+.idea/
+
+# Ignore personal configuration files
+.editorconfig
+.gitattributes
+
+# Ignore logs and temporary files
+*.log
+*.tmp
